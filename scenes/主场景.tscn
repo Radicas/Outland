@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bygtlohvblo3i"]
+
+[ext_resource type="PackedScene" uid="uid://dh7inx10pk4qg" path="res://assets/animations/charactors/角色-耿鬼.tscn" id="1_q3bra"]
+[ext_resource type="PackedScene" uid="uid://b611n6ftyu2vc" path="res://assets/tilemaps/默认地图.tscn" id="2_mvsps"]
+
+[node name="主场景" type="Node2D"]
+
+[node name="默认地图" parent="." instance=ExtResource("2_mvsps")]
+
+[node name="玩家" parent="." instance=ExtResource("1_q3bra")]
+position = Vector2(149, 82)
