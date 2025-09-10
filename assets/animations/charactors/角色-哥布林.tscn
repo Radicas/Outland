@@ -1,0 +1,153 @@
+[gd_scene load_steps=34 format=3 uid="uid://cfmxtyk64fefo"]
+
+[ext_resource type="Texture2D" uid="uid://d1hxuip1rsl0l" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-0.png" id="1_jv36s"]
+[ext_resource type="Texture2D" uid="uid://bk05a1g58hnsk" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-1.png" id="2_amsrw"]
+[ext_resource type="Texture2D" uid="uid://dp6m7cre16aam" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-2.png" id="3_0bwsp"]
+[ext_resource type="Texture2D" uid="uid://jytms3qpdaij" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-3.png" id="4_nrvpt"]
+[ext_resource type="Texture2D" uid="uid://7fpvxjodqupv" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-4.png" id="5_6y8x6"]
+[ext_resource type="Texture2D" uid="uid://debi0a5mlkv4f" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-5.png" id="6_e6dkl"]
+[ext_resource type="Texture2D" uid="uid://lqauv1uor37g" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-6.png" id="7_2ru2l"]
+[ext_resource type="Texture2D" uid="uid://bo78rnb0wvh22" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-7.png" id="8_y1syl"]
+[ext_resource type="Texture2D" uid="uid://cp38bvaydd33w" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-8.png" id="9_lvd1k"]
+[ext_resource type="Texture2D" uid="uid://c4crirwhe60wd" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-9.png" id="10_v6x3c"]
+[ext_resource type="Texture2D" uid="uid://y3swvruqcx8s" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-10.png" id="11_o4eoh"]
+[ext_resource type="Texture2D" uid="uid://crgl2mmp2bh14" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-11.png" id="12_bvnmi"]
+[ext_resource type="Texture2D" uid="uid://c66cx0h5hdv56" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-12.png" id="13_cgryp"]
+[ext_resource type="Texture2D" uid="uid://b32oiumr5rg4j" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-13.png" id="14_nnfcg"]
+[ext_resource type="Texture2D" uid="uid://vhf3r5ljocfy" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-14.png" id="15_57uhb"]
+[ext_resource type="Texture2D" uid="uid://bpgstrtd5an1k" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-15.png" id="16_ibt3c"]
+[ext_resource type="Texture2D" uid="uid://6hcb6qp50u5r" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-16.png" id="17_q20tn"]
+[ext_resource type="Texture2D" uid="uid://bjhrkt5qo8iog" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-17.png" id="18_wxsv4"]
+[ext_resource type="Texture2D" uid="uid://cppqmne2losor" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-18.png" id="19_mewo2"]
+[ext_resource type="Texture2D" uid="uid://cgpo58eihe55o" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-19.png" id="20_30p2l"]
+[ext_resource type="Texture2D" uid="uid://c4ihoio45p3r0" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-20.png" id="21_od2yc"]
+[ext_resource type="Texture2D" uid="uid://ck8o1gbcarfj5" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-21.png" id="22_wtamq"]
+[ext_resource type="Texture2D" uid="uid://d3xnba3e7osg" path="res://原始资源/精灵/哥布林/攻击/spr_hammering_strip23-22.png" id="23_1kjkq"]
+[ext_resource type="Texture2D" uid="uid://dk7vkopbraub6" path="res://原始资源/精灵/哥布林/静止/spr_idle_strip9-0.png" id="24_y1syl"]
+[ext_resource type="Texture2D" uid="uid://uy3ewr72po3x" path="res://原始资源/精灵/哥布林/静止/spr_idle_strip9-1.png" id="25_lvd1k"]
+[ext_resource type="Texture2D" uid="uid://digpfgd6nm8kp" path="res://原始资源/精灵/哥布林/静止/spr_idle_strip9-2.png" id="26_v6x3c"]
+[ext_resource type="Texture2D" uid="uid://clbljmka27e01" path="res://原始资源/精灵/哥布林/静止/spr_idle_strip9-3.png" id="27_o4eoh"]
+[ext_resource type="Texture2D" uid="uid://fr0k0dgh65mc" path="res://原始资源/精灵/哥布林/静止/spr_idle_strip9-4.png" id="28_bvnmi"]
+[ext_resource type="Texture2D" uid="uid://8k7jkdcv5bv5" path="res://原始资源/精灵/哥布林/静止/spr_idle_strip9-5.png" id="29_cgryp"]
+[ext_resource type="Texture2D" uid="uid://dyr75qsp1lgni" path="res://原始资源/精灵/哥布林/静止/spr_idle_strip9-6.png" id="30_nnfcg"]
+[ext_resource type="Texture2D" uid="uid://c17yam7kwlc4y" path="res://原始资源/精灵/哥布林/静止/spr_idle_strip9-7.png" id="31_57uhb"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ms471"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_jv36s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_amsrw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_0bwsp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_nrvpt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_6y8x6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_e6dkl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_2ru2l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_y1syl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_lvd1k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_v6x3c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_o4eoh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_bvnmi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_cgryp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_nnfcg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_57uhb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_ibt3c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_q20tn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_wxsv4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_mewo2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_30p2l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_od2yc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_wtamq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_1kjkq")
+}],
+"loop": true,
+"name": &"攻击",
+"speed": 16.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("24_y1syl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_lvd1k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_v6x3c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_o4eoh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_bvnmi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_cgryp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_nnfcg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_57uhb")
+}],
+"loop": true,
+"name": &"静止",
+"speed": 11.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5a52r"]
+size = Vector2(22, 23)
+
+[node name="哥布林" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(1.136, 1)
+sprite_frames = SubResource("SpriteFrames_ms471")
+animation = &"静止"
+frame_progress = 0.211837
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_5a52r")

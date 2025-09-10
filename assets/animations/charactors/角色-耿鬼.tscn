@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://dqgfmkjigi71o" path="res://scripts/gengar.gd" id="2_8isos"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8isos"]
-size = Vector2(44, 41)
+size = Vector2(44, 44)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4xbje"]
 atlas = ExtResource("1_hil4d")
@@ -145,10 +145,11 @@ animations = [{
 script = ExtResource("2_8isos")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-1, 6.5)
+position = Vector2(-1, 8)
 shape = SubResource("RectangleShape2D_8isos")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, 1)
 sprite_frames = SubResource("SpriteFrames_pbc2q")
 animation = &"down"
-frame_progress = 0.0875142
+frame_progress = 0.558013
