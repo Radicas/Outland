@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=4 uid="uid://b611n6ftyu2vc"]
+[gd_scene load_steps=11 format=4 uid="uid://b611n6ftyu2vc"]
 
 [ext_resource type="Texture2D" uid="uid://b8wh31wxyqjhh" path="res://原始资源/地图/SunnysideWorld_Tileset_V0.1.png" id="1_ixucd"]
 [ext_resource type="PackedScene" uid="uid://kx4bt1bgyqhy" path="res://assets/animations/environment/树木.tscn" id="2_ngfoa"]
@@ -851,6 +851,18 @@ texture = ExtResource("1_ixucd")
 [sub_resource type="TileSet" id="TileSet_ngfoa"]
 sources/0 = SubResource("TileSetAtlasSource_ixucd")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_78odw"]
+size = Vector2(1169, 21)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xroiv"]
+size = Vector2(20, 669)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pm0k0"]
+size = Vector2(1177, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ngfoa"]
+size = Vector2(15, 672)
+
 [node name="默认地图" type="Node2D"]
 
 [node name="地皮" type="TileMapLayer" parent="."]
@@ -867,6 +879,26 @@ scale = Vector2(1.5, 1.5)
 
 [node name="树木2" parent="." instance=ExtResource("2_ngfoa")]
 position = Vector2(450, 243)
+scale = Vector2(1.5, 1.5)
 
 [node name="树木3" parent="." instance=ExtResource("2_ngfoa")]
 position = Vector2(372, 490)
+scale = Vector2(1.5, 1.5)
+
+[node name="地图边界" type="StaticBody2D" parent="."]
+
+[node name="up_bound" type="CollisionShape2D" parent="地图边界"]
+position = Vector2(574, -9)
+shape = SubResource("RectangleShape2D_78odw")
+
+[node name="right_bound" type="CollisionShape2D" parent="地图边界"]
+position = Vector2(1161, 323.5)
+shape = SubResource("RectangleShape2D_xroiv")
+
+[node name="down_bound" type="CollisionShape2D" parent="地图边界"]
+position = Vector2(577.5, 648)
+shape = SubResource("RectangleShape2D_pm0k0")
+
+[node name="left_bound" type="CollisionShape2D" parent="地图边界"]
+position = Vector2(-6, 322)
+shape = SubResource("RectangleShape2D_ngfoa")
